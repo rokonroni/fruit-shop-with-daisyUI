@@ -26,9 +26,35 @@
       <nav
         class="container mx-auto my-4 navbar md:bg-red-500 rounded-full p-4 px-10 flex-row-reverse lg:flex-row"
       >
-        <div class="flex-1 justify-end lg:hidden">
+        <!-- <div class="flex-1 justify-end lg:hidden">
           <i class="fa-solid fa-bars fa-2xl md:text-white"></i>
+        </div> -->
+
+        <div class="dropdown dropdown-end  text-right flex-1 justify-end p-0 lg:hidden">
+          <label tabindex="0" class="avatar p-0">
+            <div >
+              <i class="fa-solid fa-bars fa-xl p-0  md:text-white"></i>
+            </div>
+          </label>
+          <ul tabindex="0" class="mt-5 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">All Fruits</a></li>
+            <div class="flex md:hidden justify-center mt-2">
+              <input
+                type="text"
+                placeholder="Search here"
+                class="input w-full outline outline-2 outline-gray-300 rounded-xl"
+              />
+              <i
+                class="fa-solid fa-magnifying-glass absolute ml-40 mt-3 bg-white p-1"
+              ></i>
+            </div>
+          </ul>
         </div>
+
+
         <div class="lg:flex-1 hidden lg:block">
           <ul class="gap-8 md:flex text-white font-bold text-lg">
             <li><a href="#">Home</a></li>
@@ -59,7 +85,7 @@
     <!-- Main Start -->
     <main>
       <!-- Carousel Section Start -->
-      <section>
+      <section class="container mx-auto">
         <div class="container mx-auto">
         <div class="carousel w-full md:h-[500px] lg:h-[700px] h-[400px]" >
           <div
@@ -74,7 +100,7 @@
             <div class="hero-overlay flex rounded-xl w-full py-48 bg-opacity-60">
               <div class="hero-content mx-auto text-center text-white">
                 <div class="w-full flex-col">
-                  <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                  <h1 class="mb-5 lg:text-5xl text-3xl font-bold">Exotic tastes at your doorstep</h1>
                   <p class="mb-5 text-xl">
                     We supply highly quality organic products
                   </p>
@@ -83,8 +109,8 @@
                 <div
                   class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
                 >
-                  <a href="#slide4" class="btn btn-circle">❮</a>
-                  <a href="#slide2" class="btn btn-circle">❯</a>
+                  <a href="#slide4" class="btn md:bg-gray-900 bg-transparent hover:text-gray-900 text-white btn-circle">❮</a>
+                  <a href="#slide2" class="btn md:bg-gray-900 bg-transparent hover:text-gray-900 text-white btn-circle">❯</a>
                 </div>
               </div>
             </div>
@@ -110,8 +136,8 @@
                 <div
                   class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
                 >
-                  <a href="#slide1" class="btn btn-circle">❮</a>
-                  <a href="#slide3" class="btn btn-circle">❯</a>
+                  <a href="#slide1" class="btn md:bg-gray-900 bg-transparent hover:text-gray-900 text-white btn-circle">❮</a>
+                  <a href="#slide3" class="btn md:bg-gray-900 bg-transparent hover:text-gray-900 text-white btn-circle">❯</a>
                 </div>
               </div>
             </div>
@@ -137,8 +163,8 @@
                 <div
                   class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
                 >
-                  <a href="#slide2" class="btn btn-circle">❮</a>
-                  <a href="#slide4" class="btn btn-circle">❯</a>
+                  <a href="#slide2" class="btn md:bg-gray-900 bg-transparent hover:text-gray-900 text-white btn-circle">❮</a>
+                  <a href="#slide4" class="btn md:bg-gray-900 bg-transparent hover:text-gray-900 text-white btn-circle">❯</a>
                 </div>
               </div>
             </div>
@@ -164,8 +190,8 @@
                 <div
                   class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
                 >
-                  <a href="#slide3" class="btn btn-circle">❮</a>
-                  <a href="#slide1" class="btn btn-circle">❯</a>
+                  <a href="#slide3" class="btn md:bg-gray-900 bg-transparent hover:text-gray-900 text-white btn-circle">❮</a>
+                  <a href="#slide1" class="btn md:bg-gray-900 bg-transparent hover:text-gray-900 text-white btn-circle">❯</a>
                 </div>
               </div>
             </div>
@@ -552,7 +578,7 @@
         <a class="link link-hover text-xl">Support</a>
         <a class="link link-hover text-xl">My Account</a>
       </div> 
-        <div class="flex flex-wrap gap-6">
+        <div class="flex flex-wrap justify-center gap-6">
           <a href=""><i class="fa-brands fa-facebook text-4xl"></i></a> 
           <a href=""><i class="fa-brands fa-twitter text-4xl"></i></a>
           <a href=""><i class="fa-brands fa-youtube text-4xl"></i></a>
