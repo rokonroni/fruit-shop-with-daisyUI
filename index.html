@@ -22,7 +22,7 @@
   </head>
   <body class="font-lato">
     <!-- Header Start -->
-    <header>
+    <header class="md:px-5 lg:px-0">
       <nav
         class="container mx-auto my-4 navbar md:bg-red-500 rounded-full p-4 px-10 flex-row-reverse lg:flex-row"
       >
@@ -85,7 +85,7 @@
     <!-- Main Start -->
     <main>
       <!-- Carousel Section Start -->
-      <section class="container mx-auto">
+      <section class="container mx-auto px-5 lg:px-0">
         <div class="container mx-auto">
         <div class="carousel w-full md:h-[500px] lg:h-[700px] h-[400px]" >
           <div
@@ -231,35 +231,35 @@
       <section class="container mx-auto p-5 lg:p-0">
          <div  class="flex flex-col lg:justify-between justify-center  lg:flex-row">
           <div>
-            <h3 class="text-5xl font-black text-center lg:text-left mb-5">Deal of the day</h3>
+            <h3 class="lg:text-5xl md:text-4xl text-3xl font-black text-center lg:text-left mb-5">Deal of the day</h3>
             <p class="lg:w-3/4 w-full m-auto text-center lg:text-left lg:ml-0 lg:text-2xl mb-5 lg:mb-0">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
           </div>
           <div>
             <div class="flex items-center gap-6 justify-around p-5 md:px-10 lg:p-0">
               <div class="text-center">
-                <span class="countdown text-4xl lg:text-6xl">
-                  <span style="--value:15;"></span>
+                <span class="countdown text-4xl font-bold lg:text-6xl">
+                  <span style="--value:12;"></span>
                 </span>
                 <p class="lg:text-3xl">Days</p>
               </div> 
               <i class="fa-solid fa-ellipsis-vertical"></i>
               <div class="text-center">
-                <span class="countdown text-4xl lg:text-6xl">
-                  <span style="--value:10;"></span>
+                <span class="countdown text-4xl font-bold lg:text-6xl">
+                  <span style="--value:3;"></span>
                 </span>
                 <p class="lg:text-3xl">hours</p>
               </div> 
               <i class="fa-solid fa-ellipsis-vertical"></i>
               <div class="text-center">
-                <span class="countdown text-4xl lg:text-6xl">
-                  <span style="--value:24;"></span>
+                <span class="countdown text-4xl font-bold lg:text-6xl">
+                  <span style="--value:28;"></span>
                 </span>
                 <p class="lg:text-3xl">min</p>
               </div> 
               <i class="fa-solid fa-ellipsis-vertical"></i>
               <div class="text-center">
-                <span class="countdown text-4xl lg:text-6xl">
-                  <span style="--value:47;"></span>
+                <span class="countdown text-4xl font-bold lg:text-6xl">
+                  <span style="--value:10;"></span>
                 </span>
                 <p class="lg:text-3xl">sec</p>
               </div>
@@ -298,7 +298,6 @@
                       <input type="radio" name="rating-1" class="mask mask-star-2 bg-red-500" />
                     </div>
                     <div class="justify-center mt-2 lg:my-5">
-                      <!-- if there is a button in form, it will close the modal -->
                       <button class="btn bg-transparent hover:bg-red-500 border border-red-500 text-black hover:text-white mr-5">Close</button>
                       <button class="btn bg-transparent hover:bg-red-500 border border-red-500 text-black hover:text-white">Buy Now</button>
                     </div>
@@ -339,7 +338,6 @@
                       <input type="radio" name="rating-2" class="mask mask-star-2 bg-red-500" />
                     </div>
                     <div class="justify-center mt-2 lg:my-5">
-                      <!-- if there is a button in form, it will close the modal -->
                       <button class="btn bg-transparent hover:bg-red-500 border border-red-500 text-black hover:text-white mr-5">Close</button>
                       <button class="btn bg-transparent hover:bg-red-500 border border-red-500 text-black hover:text-white">Buy Now</button>
                     </div>
@@ -379,7 +377,6 @@
                       <input type="radio" name="rating-3" class="mask mask-star-2 bg-red-500" checked/>
                     </div>
                     <div class="justify-center mt-2 lg:my-5">
-                      <!-- if there is a button in form, it will close the modal -->
                       <button class="btn bg-transparent hover:bg-red-500 border border-red-500 text-black hover:text-white mr-5">Close</button>
                       <button class="btn bg-transparent hover:bg-red-500 border border-red-500 text-black hover:text-white">Buy Now</button>
                     </div>
@@ -419,7 +416,6 @@
                       <input type="radio" name="rating-4" class="mask mask-star-2 bg-red-500" />
                     </div>
                     <div class="justify-center mt-2 lg:my-5">
-                      <!-- if there is a button in form, it will close the modal -->
                       <button class="btn bg-transparent hover:bg-red-500 border border-red-500 text-black hover:text-white mr-5">Close</button>
                       <button class="btn bg-transparent hover:bg-red-500 border border-red-500 text-black hover:text-white">Buy Now</button>
                     </div>
@@ -435,12 +431,12 @@
       </section>
       <!-- Offers Section End -->
       <!-- Team Section Start -->
-      <section class="container mx-auto p-5 rounded-lg"">
+      <section class="container mx-auto px-5 lg:px-0 rounded-lg"">
         <div class=" rounded-xl w-full " style="background-image: url(./images/team.png); background-repeat: no-repeat; background-size: cover; background-position: center;">
-            <div class="hero-overlay flex flex-col rounded-xl w-full py-20 bg-opacity-60">
+            <div class="hero-overlay flex flex-col rounded-xl w-full lg:py-20 py-8 bg-opacity-60">
               <div class="hero-content mx-auto text-center text-white">
                 <div class="w-full flex-col">
-                  <h1 class="mb-5 text-5xl font-black">Meet the team section</h1>
+                  <h1 class="mb-5 lg:text-5xl md:text-4xl text-3xl font-black">Meet the team section</h1>
                   <p class="mb-5 text-xl lg:w-3/5 lg:mx-auto">
                     Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
                   </p>
@@ -495,7 +491,7 @@
       <!-- Services Section Start -->
       <section class="container mx-auto p-5 my-20">
         <div class="w-full flex-col text-center">
-          <h1 class="mb-5 text-5xl font-black">Why Choose Us</h1>
+          <h1 class="mb-5 lg:text-5xl md:text-4xl text-3xl font-black">Why Choose Us</h1>
           <p class="mb-5 text-xl lg:w-3/5 lg:mx-auto">
             Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
           </p>
